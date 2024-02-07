@@ -1,5 +1,5 @@
 //Fahrnheit vs. Celsius
-let farenheit = prompt("Zadej teplotu ve Farenheit:");
+const farenheit = prompt("Zadej teplotu ve Farenheit:");
 
-let vysledek = celsius = 5 / 9 * (farenheit - 32);
+const vysledek = Math.round(celsius = 5 / 9 * (farenheit - 32));
 document.body.innerHTML = "Teplota v Celsius je: " + vysledek;
